@@ -1,0 +1,38 @@
+{
+  "name": "cursor-agentic-team",
+  "displayName": "Agentic Team",
+  "version": "1.0.0",
+  "description": "CEO + 7 departments × 6 skills (42 roles). Claude Code org structure for Cursor. Phase 3 complete: SOCIAL + FINANCE + BIZ + LEGAL.",
+  "author": {
+    "name": "You"
+  },
+  "license": "MIT",
+  "keywords": [
+    "agentic-team",
+    "ceo",
+    "dev",
+    "design",
+    "marketing",
+    "social",
+    "finance",
+    "biz",
+    "legal",
+    "orchestration"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "team",
+    "routing",
+    "gstack",
+    "superpowers",
+    "design",
+    "marketing",
+    "social",
+    "finance",
+    "legal"
+  ],
+  "skills": "./skills/",
+  "rules": "./rules/",
+  "agents": "./agents/",
+  "commands": "./commands/"
+}
