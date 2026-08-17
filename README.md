@@ -1,6 +1,6 @@
 # Agentic Team (cursor-agentic-team)
 
-CEO + 7 departments × 6 skills (**42 roles**). **Phase 3 complete — v1.0.0.**
+CEO + 7 departments (**43 roles**: DEV×7 + 6×6). **Phase 3 complete — v1.1.0** (AI collab field guide).
 
 ## Install
 
@@ -18,22 +18,31 @@ Optional: copy project template:
 cp ~/.cursor/plugins/local/cursor-agentic-team/templates/AGENTS.md /path/to/project/AGENTS.md
 ```
 
+Optional: AI Collaboration pack (field guide docs):
+
+```bash
+cp -r ~/.cursor/plugins/local/cursor-agentic-team/templates/ai-collab/ /path/to/project/docs/ai-collab/
+```
+
+Or `/dev-collab` init inside a project.
+
 ## Org chart
 
 ```text
                     CEO (ceo-orchestrator + ceo-router)
     ┌───────┬─────────┬──────────┬─────────┬──────┬───────┐
    DEV   DESIGN   MARKETING   SOCIAL   FINANCE  BIZ   LEGAL
-   ×6      ×6        ×6         ×6       ×6     ×6     ×6
+   ×7      ×6        ×6         ×6       ×6     ×6     ×6
 ```
 
 ## Phase status
 
 | Phase | Scope | Status |
 |-------|-------|--------|
-| 1 | CEO + DEV (6 skills) | Done |
+| 1 | CEO + DEV (7 skills; +`dev-ai-collab` in 1.1.0) | Done |
 | 2 | DESIGN + MARKETING (6 + 6) | Done |
 | 3 | SOCIAL + FINANCE + BIZ + LEGAL (24) | Done (`1.0.0`) |
+| 1.1 | AI Collaboration field-guide pack + hybrid ship gates | Done (`1.1.0`) |
 
 ## Components
 
@@ -41,9 +50,9 @@ cp ~/.cursor/plugins/local/cursor-agentic-team/templates/AGENTS.md /path/to/proj
 |-----------|------|
 | Rule | `rules/ceo-router.mdc` (alwaysApply) |
 | Agents | CEO + DESIGN/MARKETING/SOCIAL/FINANCE/BIZ/LEGAL leads |
-| Skills | 42 thin wrappers / NEW procedures |
-| Commands | team-status, DEV trio, design×2, marketing×2, social-post, finance-statements, biz-cash-flow, legal-review-contract |
-| Template | `templates/AGENTS.md` |
+| Skills | 43 thin wrappers / NEW procedures |
+| Commands | team-status, DEV quartet (+ collab), design×2, marketing×2, social-post, finance-statements, biz-cash-flow, legal-review-contract |
+| Template | `templates/AGENTS.md` + `templates/ai-collab/` |
 
 ## Wrapper → target (verified on scaffold host)
 
@@ -59,6 +68,7 @@ All wrappers are **thin markdown** (not symlinks).
 | `dev-skill-creator` | Cursor `create-skill` + Superpowers `writing-skills` | OK |
 | `dev-qa-engineer` | `gstack-qa` (+ gstack router) | OK |
 | `dev-memory-keeper` | claude-mem `mem-search` | OK |
+| `dev-ai-collab` | Field-guide pack + hybrid ship/review gates (NEW) | OK |
 
 ### DESIGN (Phase 2)
 
@@ -135,6 +145,7 @@ All wrappers are **thin markdown** (not symlinks).
 | `dev-qa` | `dev-qa-engineer` |
 | `dev-docs` | `dev-docs-fetcher` |
 | `dev-skill-forge` | `dev-superpowers` + `dev-skill-creator` |
+| `dev-collab` | `dev-ai-collab` (init / handoff / ship gate) |
 | `design-prototype` | `design-frontend` + `design-taste` (+ ui-ux-pro-max) |
 | `design-brand` | `design-brand` |
 | `marketing-copy` | `marketing-copywriting` |
@@ -146,7 +157,7 @@ All wrappers are **thin markdown** (not symlinks).
 
 ## Symlinked vs wrapped
 
-- **Wrapped / NEW:** all 42 skills — explicit "Read and follow" or focused procedure.
+- **Wrapped / NEW:** all 43 skills — explicit "Read and follow" or focused procedure.
 - **Symlinks:** none.
 
 ## License

@@ -14,7 +14,7 @@ Print the current Agentic Team map for this session.
 
 | Dept | Phase | Status |
 |------|-------|--------|
-| DEV | 1 | 6 wrapper skills live |
+| DEV | 1 | 7 wrapper skills live (+`dev-ai-collab`) |
 | DESIGN | 2 | 6 wrapper skills live |
 | MARKETING | 2 | 6 wrapper skills live |
 | SOCIAL | 3 | 6 skills live |
@@ -22,7 +22,7 @@ Print the current Agentic Team map for this session.
 | BIZ | 3 | 6 skills live |
 | LEGAL | 3 | 6 skills live |
 
-**Org:** 7 depts × 6 = **42 roles**. Plugin **v1.0.0**. Phase 3 complete.
+**Org:** DEV×7 + 6×6 = **43 roles**. Plugin **v1.1.0**. Phase 3 complete + AI collab pack.
 
 3. **DEV skill map**
 
@@ -34,6 +34,7 @@ Print the current Agentic Team map for this session.
 | `dev-skill-creator` | Create Cursor skills |
 | `dev-qa-engineer` | gstack-qa |
 | `dev-memory-keeper` | claude-mem / memory MCP |
+| `dev-ai-collab` | Field-guide handover / decisions / ship gate |
 
 4. **DESIGN skill map**
 
@@ -102,3 +103,4 @@ Print the current Agentic Team map for this session.
 | `legal-signature-request` | NEW signature packet |
 
 10. Remind: classify → assign dept → then work. LEGAL HIGH → human counsel. FINANCE/tax not advice.
+11. AI collab: `/dev-collab` for pack init/handoff/gate. Ship/verify includes `dev-ai-collab`.

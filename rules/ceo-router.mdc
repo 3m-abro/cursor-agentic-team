@@ -11,7 +11,7 @@ Classify every user request before coding. Assign one primary department. Never 
 
 | Dept | Mission | Trigger keywords |
 |------|---------|------------------|
-| **DEV** | Build, fix, ship, test, docs, skills, MCP, memory | code, bug, PR, test, QA, refactor, skill, MCP, docs, API, CI, deploy, implement |
+| **DEV** | Build, fix, ship, test, docs, skills, MCP, memory, AI collab paper trail | code, bug, PR, test, QA, refactor, skill, MCP, docs, API, CI, deploy, implement, handover, handoff, decisions, field guide, collab docs |
 | **DESIGN** | UI/UX, visual systems, frontend taste | design, UI, UX, layout, brand, visual, mockup, Figma, CSS, Tailwind look, motion, canvas, stitch |
 | **MARKETING** | Positioning, copy, campaigns, growth | marketing, copy, CTA, landing, campaign, SEO, positioning, funnel, CRO, lead magnet, ICP |
 | **SOCIAL** | Social / community content | tweet, LinkedIn, reel, Shorts, TikTok, social post, hook, thumbnail, profile bio, social voice |
@@ -24,7 +24,8 @@ Classify every user request before coding. Assign one primary department. Never 
 1. **Pick primary dept** from keywords + intent. Ambiguous → ask one clarifying question, then assign.
 2. **DEV path:** read and follow gstack router at  
    `/home/maqsood.a@scicom.msc/.cursor/skills/gstack/SKILL.md`  
-   Then dispatch the matching DEV wrapper skill under this plugin (`dev-qa-engineer`, `dev-docs-fetcher`, `dev-superpowers`, `dev-skill-creator`, `dev-mcp-builder`, `dev-memory-keeper`).
+   Then dispatch the matching DEV wrapper skill under this plugin (`dev-qa-engineer`, `dev-docs-fetcher`, `dev-superpowers`, `dev-skill-creator`, `dev-mcp-builder`, `dev-memory-keeper`, `dev-ai-collab`).  
+   Continuity / handover / decisions / field-guide / ship-gate paper trail → `dev-ai-collab`. Non-trivial DEV: plan before code; prefer one logical change per request.
 3. **DESIGN path:** dispatch matching wrapper — `design-ui-ux-pro-max`, `design-taste`, `design-frontend`, `design-transitions`, `design-web-artifacts`, `design-brand`. Prefer `design-frontend` for build-UI; `design-brand` for identity; `design-web-artifacts` for canvas/Stitch.
 4. **MARKETING path:** dispatch matching wrapper — `marketing-copywriting`, `marketing-ai-seo`, `marketing-cro`, `marketing-ad-creative`, `marketing-customer-research`, `marketing-lead-magnets`. Prefer `marketing-copywriting` for words; `marketing-cro` for conversion; `marketing-ai-seo` for organic.
 5. **SOCIAL path (Phase 3):** `social-post-writer`, `social-profile-optimizer`, `social-reels-scripting`, `social-hook-generator`, `social-voice-builder`, `social-youtube-thumbnail`. Optional lead: `social-department-lead`.
@@ -33,7 +34,7 @@ Classify every user request before coding. Assign one primary department. Never 
 8. **LEGAL path (Phase 3):** `legal-review-contract`, `legal-triage-nda`, `legal-compliance-check`, `legal-risk-assessment`, `legal-vendor-check`, `legal-signature-request`. **Not a lawyer.** HIGH risk → escalate human counsel. Never invent jurisdiction-specific law as fact. Lead: `legal-department-lead`.
 9. **Multi-dept:** primary owns the thread; secondary depts get explicit handoff notes.
 10. **Parallel:** when Multitask Mode is available:
-   - DEV ship/verify → docs + QA + memory
+   - DEV ship/verify → docs + QA + memory + `dev-ai-collab` (checklist / handover gate)
    - Landing → `design-frontend` + `marketing-copywriting` + `marketing-cro`
    - Brand social push → `social-post-writer` + `social-hook-generator` + `design-brand`
    - Close week → `finance-close-management` + `finance-reconciliation` + `finance-variance-analysis`

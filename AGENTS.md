@@ -6,7 +6,7 @@ CEO routes. Departments execute. Never code without a department assignment.
 
 | Dept | Mission | When |
 |------|---------|------|
-| DEV | Build, fix, ship, test, docs, skills, MCP, memory | Code, bugs, PRs, QA, CI, APIs, skills |
+| DEV | Build, fix, ship, test, docs, skills, MCP, memory, AI collab paper trail | Code, bugs, PRs, QA, CI, APIs, skills, handover |
 | DESIGN | UI/UX, visual systems | Layout, brand, mockups, frontend taste |
 | MARKETING | Positioning, copy, growth | Landing copy, campaigns, SEO, funnel |
 | SOCIAL | Social / community | Posts, threads, reels, profiles, hooks |
@@ -26,8 +26,22 @@ CEO routes. Departments execute. Never code without a department assignment.
 | `dev-skill-creator` | Cursor `create-skill` + Superpowers `writing-skills` |
 | `dev-qa-engineer` | `gstack-qa` |
 | `dev-memory-keeper` | claude-mem `mem-search` (fallback: user-memory + codebase-memory MCP) |
+| `dev-ai-collab` | Field-guide pack: handover / decisions / flow / constraints / test / rollback / traces |
 
 DEV work: follow gstack router first (`~/.cursor/skills/gstack/SKILL.md`), then the matching wrapper.
+
+## AI Collaboration (field guide)
+
+Repo pack (default): `docs/ai-collab/` — copy from `templates/ai-collab/` or `/dev-collab` init.
+
+| Habit layer | Skill / rule |
+|-------------|--------------|
+| Continuity + ship gate | `dev-ai-collab` |
+| Memory dual-write | `dev-memory-keeper` + `DECISIONS.md` |
+| Plan before code / small asks | CEO + DEV |
+| Read diff / own mental model | Human — agents remind, never fake |
+
+Ship/verify parallel: `dev-qa-engineer` + `dev-docs-fetcher` + `dev-memory-keeper` + `dev-ai-collab`.
 
 ## DESIGN skill map (Phase 2)
 
@@ -101,7 +115,7 @@ LEGAL hard rules: not a lawyer; HIGH risk → human counsel; never invent jurisd
 
 | Scenario | Parallel tracks |
 |----------|-----------------|
-| Ship / verify | `dev-qa-engineer` + `dev-docs-fetcher` + `dev-memory-keeper` |
+| Ship / verify | `dev-qa-engineer` + `dev-docs-fetcher` + `dev-memory-keeper` + `dev-ai-collab` |
 | Skill forge | `dev-superpowers` then `dev-skill-creator` (sequential) |
 | MCP build | `dev-mcp-builder` (+ `dev-docs-fetcher` for MCP/SDK docs) |
 | Landing | `design-frontend` + `marketing-copywriting` + `marketing-cro` |
@@ -116,6 +130,7 @@ LEGAL hard rules: not a lawyer; HIGH risk → human counsel; never invent jurisd
 2. Cross-dept conflict → CEO names primary; secondary gets handoff note only.
 3. LEGAL HIGH risk → human counsel before sign/rely.
 4. Memory write failed → retry once; if still fail, surface in status (decision not persisted).
+5. Ship/review without TEST_CHECKLIST evidence → `dev-ai-collab` gate BLOCKED (no fake "done").
 
 ## Commands
 
@@ -123,6 +138,7 @@ LEGAL hard rules: not a lawyer; HIGH risk → human counsel; never invent jurisd
 - `/dev-qa` — QA wrapper
 - `/dev-docs` — Context7 docs
 - `/dev-skill-forge` — superpowers + skill creator
+- `/dev-collab` — AI collab pack init / handoff / ship gate
 - `/design-prototype` — frontend + taste (+ ui-ux-pro-max)
 - `/design-brand` — brand identity
 - `/marketing-copy` — copywriting

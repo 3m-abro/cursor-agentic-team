@@ -1,8 +1,8 @@
 {
   "name": "cursor-agentic-team",
   "displayName": "Agentic Team",
-  "version": "1.0.0",
-  "description": "CEO + 7 departments × 6 skills (42 roles). Claude Code org structure for Cursor. Phase 3 complete: SOCIAL + FINANCE + BIZ + LEGAL.",
+  "version": "1.1.0",
+  "description": "CEO + 7 departments (43 roles). Phase 3 complete + AI Collaboration field-guide pack (dev-ai-collab).",
   "author": {
     "name": "You"
   },
@@ -17,7 +17,9 @@
     "finance",
     "biz",
     "legal",
-    "orchestration"
+    "orchestration",
+    "ai-collab",
+    "field-guide"
   ],
   "category": "developer-tools",
   "tags": [
@@ -29,7 +31,8 @@
     "marketing",
     "social",
     "finance",
-    "legal"
+    "legal",
+    "ai-collab"
   ],
   "skills": "./skills/",
   "rules": "./rules/",
