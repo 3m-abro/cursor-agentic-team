@@ -147,3 +147,15 @@ LEGAL hard rules: not a lawyer; HIGH risk → human counsel; never invent jurisd
 - `/finance-statements` — Statement Builder
 - `/biz-cash-flow` — cash snapshot
 - `/legal-review-contract` — Contract Reviewer
+
+## Learned User Preferences
+
+- Prefer caveman (full) tone for plugin status reports unless told otherwise.
+- Treat one-word follow-ups (`scaffold`, `re-root`, `phase 2`, `phase 3`) as continuing the current plugin-build thread.
+- Keep plugin skills thin: wrap upstream skills, do not copy their bodies; new skills stay procedure + inputs + outputs.
+
+## Learned Workspace Facts
+
+- Local plugin lives at `~/.cursor/plugins/local/cursor-agentic-team/` (v1.1.0, 43 roles: DEV×7 + six depts ×6).
+- AI Collaboration field guide is DEV (`dev-ai-collab` + `templates/ai-collab/` → `docs/ai-collab/`), not an 8th department; do not overwrite filled consumer collab docs on init.
+- `re-root` means `move_agent_to_root` to the plugin path above.
