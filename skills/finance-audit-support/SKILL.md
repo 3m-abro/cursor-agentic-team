@@ -6,6 +6,8 @@ description: >-
   Triggers: audit prep, PBC list, audit evidence, walkthrough, auditor request.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # FINANCE — Audit Support (Auditor Prep)
 
 **Department:** FINANCE

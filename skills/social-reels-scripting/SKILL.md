@@ -6,6 +6,8 @@ description: >-
   Triggers: reel script, Shorts script, TikTok script, short-form video.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # SOCIAL — Reels Scripting
 
 **Department:** SOCIAL

@@ -6,6 +6,8 @@ description: >-
   Triggers: legal risk, risk register, risk assessment, exposure analysis.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # LEGAL — Risk Assessment
 
 **Department:** LEGAL

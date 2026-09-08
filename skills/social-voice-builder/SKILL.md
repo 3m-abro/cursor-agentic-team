@@ -6,6 +6,8 @@ description: >-
   Triggers: brand voice, tone of voice, social voice, voice guide.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # SOCIAL — Voice Builder
 
 **Department:** SOCIAL
@@ -15,7 +17,7 @@ Thin wrapper around brand (voice + messaging). No separate voice-framework skill
 ## Upstream
 
 1. Read and follow:
-   `/home/maqsood.a@scicom.msc/.claude/skills/brand/SKILL.md`
+   `dependency:brand`
 2. DESIGN identity systems → also `design-brand` when visual tokens matter.
 
 ## Social-specific add-on

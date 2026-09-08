@@ -1,29 +1,31 @@
-# Test checklist
+# Validation evidence — 2026-09-08
 
-Proof, not vibes. Fill with real commands and expected signals before calling work "done."
+Model: Codex (GPT-6; exact deployment version not exposed).
 
-## Smoke (every change)
+| Check | Command / method | Result |
+|---|---|---|
+| Automated behavior and compatibility | `python3 -m unittest discover -s tests -v` | 12 tests pass |
+| References and package structure | `python3 scripts/validate.py` | Pass: 44 skills, manifests, dependencies, adapters, links |
+| OpenAI manifest | Bundled plugin-creator `scripts/validate_plugin.py` against repo | Pass |
+| All skill metadata | Bundled skill-creator `scripts/quick_validate.py` for each skill | 44 pass |
+| Cursor upstream lookup | `python3 scripts/team.py doctor --platform cursor` | 36 resolved, 0 missing on this machine |
+| Codex upstream lookup | `python3 scripts/team.py doctor --platform codex` | 23 resolved, 13 missing on this machine (expected exit 2) |
+| Whitespace / diff | `git diff --check` | Pass |
 
-| Command | Expected |
-|---------|----------|
-| `test -f skills/dev-ai-collab/SKILL.md` | file exists |
-| `test -f commands/dev-collab.md` | file exists |
-| `test -f templates/ai-collab/HANDOVER.md` | file exists |
-| `test -f docs/ai-collab/HANDOVER.md` | dogfood exists |
-| `grep -q '1.1.0' .cursor-plugin/plugin.json` | version bumped |
-| `grep -q 'dev-ai-collab' rules/ceo-router.mdc AGENTS.md` | wired |
+Tests cover relocated lookup, legacy Cursor preference, mutable cache versions,
+ambiguous caches, relative config paths, missing explicit pins, unknown dependency,
+invalid JSON, configured roots, Codex authoring alias, preservation/idempotence of
+collab initialization, bundle contents, exclusive output creation, ChatGPT export,
+original Cursor manifest/name/frontmatter contract and invalid-link detection.
 
-## Feature / bug under test
+## Not verified automatically
 
-| Check | How | Pass signal |
-|-------|-----|-------------|
-| Template pack complete | list `templates/ai-collab/` | 7 core md + traces + README |
-| Skill gate language | read SKILL.md | ship/review hard gate table present |
-| Parallel ship | AGENTS.md | includes `dev-ai-collab` in Ship/verify |
+Live Cursor discovery/command execution, OpenAI installation/skill activation,
+external MCP execution and actual native delegation. Run the manual smoke checks
+in [setup](../SETUP.md). A resolved path is not an upstream integration test.
+Human diff review has not been claimed. External memory mirror was not written.
 
-## Last run
+## Gate
 
-- **When:** 2026-08-17
-- **By (model):** Composer (Cursor Auto)
-- **Result:** pass
-- **Evidence:** files written; grep targets in skill/router/AGENTS; plugin.json 1.1.0
+Local implementation and static package validation: PASS.
+Live deployment/integration gate: PENDING the target-host manual smoke checks.

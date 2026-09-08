@@ -7,6 +7,8 @@ description: >-
   Triggers: tweet, LinkedIn post, social post, thread, X post.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # SOCIAL — Post Writer
 
 **Department:** SOCIAL
@@ -16,9 +18,9 @@ Wrap + NEW: hermes-tweet for X; LinkedIn/posts procedure (no dedicated LinkedIn-
 ## Upstream
 
 1. X / Twitter research + guarded tweet prep:
-   `/home/maqsood.a@scicom.msc/.cursor/plugins/marketplaces/github.com/wshobson/agents/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/hermes-tweet/skills/hermes-tweet/SKILL.md`
+   `dependency:hermes-tweet`
 2. Optional publish/schedule (API):
-   `/home/maqsood.a@scicom.msc/.cursor/plugins/marketplaces/github.com/wshobson/agents/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/social-publishing/skills/social-publishing/SKILL.md`
+   `dependency:social-publishing`
 3. Voice constraints → `social-voice-builder` / `design-brand`.
 
 ## Procedure (LinkedIn / general posts)

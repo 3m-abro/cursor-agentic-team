@@ -6,6 +6,8 @@ description: >-
   Triggers: payroll plan, headcount cost, salary budget, payroll run.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # BIZ — Plan Payroll
 
 **Department:** BIZ

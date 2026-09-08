@@ -6,6 +6,8 @@ description: >-
   Triggers: cash flow, runway, burn rate, cash snapshot.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # BIZ — Cash Flow Snapshot
 
 **Department:** BIZ
@@ -15,7 +17,7 @@ Seed from startup-financial-modeling + thin snapshot procedure.
 ## Upstream
 
 1. Read and follow (models / unit economics patterns):
-   `/home/maqsood.a@scicom.msc/.cursor/plugins/cache/claude-code-workflows/startup-business-analyst/c4b82b0ad771190355eb8e204b1329732a18449a/skills/startup-financial-modeling/SKILL.md`
+   `dependency:startup-financial-modeling`
 
 ## Snapshot procedure
 

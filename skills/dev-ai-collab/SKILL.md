@@ -7,6 +7,8 @@ description: >-
   Triggers: handover, handoff, decisions.md, collab docs, field guide, /dev-collab.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # DEV — AI Collaboration (Field Guide)
 
 **Department:** DEV
@@ -17,7 +19,7 @@ Default pack path: `docs/ai-collab/` (override if project AGENTS.md says otherwi
 
 Templates live at:
 
-`~/.cursor/plugins/local/cursor-agentic-team/templates/ai-collab/`
+[the bundled templates](../../templates/ai-collab/)
 
 ## When to skip (YAGNI)
 
@@ -70,9 +72,10 @@ If gate fails → status `BLOCKED` with missing file list. Do not pretend succes
 
 ## Init pack
 
+Set `AGENTIC_TEAM_ROOT` to this plugin checkout or installed package root. The helper preserves every existing file, including empty files. Without a shell, copy only missing files with the host file tools.
+
 ```bash
-mkdir -p docs/ai-collab/traces
-cp -r ~/.cursor/plugins/local/cursor-agentic-team/templates/ai-collab/* docs/ai-collab/
+python3 "$AGENTIC_TEAM_ROOT/scripts/team.py" init-collab /path/to/project
 ```
 
 Do not overwrite existing non-empty project files without asking.

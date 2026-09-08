@@ -6,6 +6,8 @@ description: >-
   Triggers: margin analysis, gross margin, contribution margin, unit economics.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # BIZ — Margin Analyzer
 
 **Department:** BIZ

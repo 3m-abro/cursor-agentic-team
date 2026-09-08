@@ -6,6 +6,8 @@ description: >-
   Triggers: profile optimize, LinkedIn headline, bio rewrite, social bio.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # SOCIAL — Profile Optimizer
 
 **Department:** SOCIAL

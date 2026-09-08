@@ -6,6 +6,8 @@ description: >-
   Triggers: month close, close checklist, soft close, financial close.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # FINANCE — Close Management (The Closer)
 
 **Department:** FINANCE

@@ -1,0 +1,23 @@
+{
+  "name": "cursor-agentic-team",
+  "version": "1.2.0",
+  "description": "Portable team routing with 43 department skills and Cursor, Codex and ChatGPT adapters.",
+  "author": {
+    "name": "3m-abro"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agentic Team",
+    "shortDescription": "Seven departments with shared portable workflows",
+    "longDescription": "Shared routing and 43 department workflows, plus a team orchestrator entry point. External capabilities are resolved separately.",
+    "developerName": "3m-abro",
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Use Agentic Team to route this task.",
+      "Show team status and missing capabilities."
+    ],
+    "capabilities": []
+  },
+  "repository": "https://github.com/3m-abro/cursor-agentic-team",
+  "license": "MIT"
+}

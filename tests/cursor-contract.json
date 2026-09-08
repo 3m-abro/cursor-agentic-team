@@ -1,0 +1,92 @@
+{
+  "manifest": {
+    "name": "cursor-agentic-team",
+    "skills": "./skills/",
+    "agents": "./agents/",
+    "rules": "./rules/",
+    "commands": "./commands/"
+  },
+  "entries": {
+    "skills": [
+      "biz-cash-flow-snapshot",
+      "biz-invoice-chase",
+      "biz-margin-analyzer",
+      "biz-plan-payroll",
+      "biz-run-campaign",
+      "biz-tax-prep",
+      "design-brand",
+      "design-frontend",
+      "design-taste",
+      "design-transitions",
+      "design-ui-ux-pro-max",
+      "design-web-artifacts",
+      "dev-ai-collab",
+      "dev-docs-fetcher",
+      "dev-mcp-builder",
+      "dev-memory-keeper",
+      "dev-qa-engineer",
+      "dev-skill-creator",
+      "dev-superpowers",
+      "finance-audit-support",
+      "finance-close-management",
+      "finance-financial-statements",
+      "finance-journal-entry",
+      "finance-reconciliation",
+      "finance-variance-analysis",
+      "legal-compliance-check",
+      "legal-review-contract",
+      "legal-risk-assessment",
+      "legal-signature-request",
+      "legal-triage-nda",
+      "legal-vendor-check",
+      "marketing-ad-creative",
+      "marketing-ai-seo",
+      "marketing-copywriting",
+      "marketing-cro",
+      "marketing-customer-research",
+      "marketing-lead-magnets",
+      "social-hook-generator",
+      "social-post-writer",
+      "social-profile-optimizer",
+      "social-reels-scripting",
+      "social-voice-builder",
+      "social-youtube-thumbnail"
+    ],
+    "agents": [
+      "biz-department-lead.md",
+      "ceo-orchestrator.md",
+      "design-department-lead.md",
+      "finance-department-lead.md",
+      "legal-department-lead.md",
+      "marketing-department-lead.md",
+      "social-department-lead.md"
+    ],
+    "commands": [
+      "biz-cash-flow.md",
+      "design-brand.md",
+      "design-prototype.md",
+      "dev-collab.md",
+      "dev-docs.md",
+      "dev-qa.md",
+      "dev-skill-forge.md",
+      "finance-statements.md",
+      "legal-review-contract.md",
+      "marketing-copy.md",
+      "marketing-cro.md",
+      "social-post.md",
+      "team-status.md"
+    ],
+    "rules": [
+      "ceo-router.mdc"
+    ]
+  },
+  "agents": {
+    "biz-department-lead.md": "\nname: biz-department-lead\ndescription: BIZ department lead \u2014 cash, collections, payroll/tax prep, margins, campaigns. Ops not legal advice.\nmodel: inherit\n",
+    "ceo-orchestrator.md": "\nname: ceo-orchestrator\ndescription: CEO orchestrator \u2014 route intent to departments, never code without assignment, parallelize with Multitask Mode, persist decisions to memory and DECISIONS.md, AI collab field-guide continuity.\nmodel: inherit\n",
+    "design-department-lead.md": "\nname: design-department-lead\ndescription: DESIGN department lead \u2014 route to DESIGN skills, hand off to MARKETING/DEV when needed.\nmodel: inherit\n",
+    "finance-department-lead.md": "\nname: finance-department-lead\ndescription: FINANCE department lead \u2014 route to FINANCE skills; canvas deliverables; not financial advice.\nmodel: inherit\n",
+    "legal-department-lead.md": "\nname: legal-department-lead\ndescription: LEGAL department lead \u2014 contracts, NDAs, compliance, risk, vendors, signatures. Not a lawyer; escalate HIGH risk.\nmodel: inherit\n",
+    "marketing-department-lead.md": "\nname: marketing-department-lead\ndescription: MARKETING department lead \u2014 route to MARKETING skills, hand off to DESIGN/DEV when needed.\nmodel: inherit\n",
+    "social-department-lead.md": "\nname: social-department-lead\ndescription: SOCIAL department lead \u2014 route to SOCIAL skills, hand off to MARKETING/DESIGN when needed.\nmodel: inherit\n"
+  }
+}

@@ -6,6 +6,8 @@ description: >-
   Triggers: vendor check, vendor diligence, SaaS review, supplier risk.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # LEGAL — Vendor Check
 
 **Department:** LEGAL

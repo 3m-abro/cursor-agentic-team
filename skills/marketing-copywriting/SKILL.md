@@ -6,6 +6,8 @@ description: >-
   Triggers: copywriting, headline, CTA, landing copy, marketing copy.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # MARKETING — Copywriting
 
 **Department:** MARKETING
@@ -15,7 +17,7 @@ Thin wrapper around copywriting.
 ## Procedure
 
 1. Read and follow:
-   `/home/maqsood.a@scicom.msc/.claude/skills/copywriting/SKILL.md`
+   `dependency:copywriting`
 2. For ad-heavy persuasion, also consider `marketing-ad-creative` (Ogilvy + banners).
 3. Pair with `marketing-cro` when optimizing conversion on a page.
 

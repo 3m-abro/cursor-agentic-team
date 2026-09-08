@@ -6,6 +6,8 @@ description: >-
   Triggers: run campaign, GTM campaign, content campaign, launch plan.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # BIZ — Run Campaign
 
 **Department:** BIZ
@@ -15,9 +17,9 @@ Wrap content-marketing (agent pack; no SKILL.md on host) + content-strategy.
 ## Upstream
 
 1. Content marketer agent (read and follow patterns):
-   `/home/maqsood.a@scicom.msc/.cursor/plugins/marketplaces/github.com/wshobson/agents/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/content-marketing/agents/content-marketer.md`
+   `dependency:content-marketer`
 2. Content strategy skill:
-   `/home/maqsood.a@scicom.msc/.claude/skills/content-strategy/SKILL.md`
+   `dependency:content-strategy`
 
 ## Campaign procedure
 

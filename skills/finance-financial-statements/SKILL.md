@@ -6,11 +6,13 @@ description: >-
   Triggers: financial statements, P&L, balance sheet, income statement.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # FINANCE — Financial Statements (Statement Builder)
 
 **Department:** FINANCE
 
-**NEW** procedure. Prefer Cursor canvas for tables and statement layouts.
+**NEW** procedure. Prefer the host canvas for tables and statement layouts.
 
 > **Disclaimer:** Not legal or financial advice. Educational / operational draft only — verify with a qualified accountant before decisions.
 

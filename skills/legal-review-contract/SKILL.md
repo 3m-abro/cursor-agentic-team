@@ -6,6 +6,8 @@ description: >-
   Triggers: contract review, MSA review, agreement review, redline issues.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # LEGAL — Review Contract (Contract Reviewer)
 
 **Department:** LEGAL

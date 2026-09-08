@@ -6,6 +6,8 @@ description: >-
   Triggers: taste-design, design taste, anti-slop UI, visual craft.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # DESIGN — Taste
 
 **Department:** DESIGN
@@ -15,9 +17,8 @@ Thin wrapper around taste-design.
 ## Procedure
 
 1. Read and follow:
-   `/home/maqsood.a@scicom.msc/.agents/skills/taste-design/SKILL.md`
-2. Fallback if missing:
-   `/home/maqsood.a@scicom.msc/.claude/skills/taste-design/SKILL.md`
+   `dependency:taste-design`
+2. Provider fallbacks are handled by the selected adapter; report a missing dependency if none resolves.
 3. Apply taste rules before shipping visual work; do not invent a parallel taste system.
 
 ## Sibling

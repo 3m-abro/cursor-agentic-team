@@ -6,17 +6,19 @@ description: >-
   Triggers: customer research, ICP, JTBD, persona, voice of customer, objections.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # MARKETING — Customer Research
 
 **Department:** MARKETING
 
-Thin **NEW** procedure. Pulls patterns from content-strategy; optional startup-analyst Task for market sizing.
+Thin **NEW** procedure. Pulls patterns from content-strategy; optional startup-analyst role for market sizing.
 
 ## Upstream (read when relevant)
 
 1. Content / VoC / topic inputs:
-   `/home/maqsood.a@scicom.msc/.claude/skills/content-strategy/SKILL.md`
-2. Optional market/ICP depth: spawn Task `startup-analyst` if available (no local skill dir on scaffold host).
+   `dependency:content-strategy`
+2. Optional market/ICP depth: delegate to `startup-analyst` only if the host exposes that role and delegation is authorized; otherwise skip this optional depth.
 
 ## Procedure
 

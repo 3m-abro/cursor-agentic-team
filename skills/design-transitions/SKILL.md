@@ -6,6 +6,8 @@ description: >-
   Triggers: transitions, scroll animation, ScrollTrigger, motion, parallax, GSAP.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # DESIGN — Transitions
 
 **Department:** DESIGN
@@ -15,16 +17,16 @@ Thin orchestration skill. No full GSAP docs duplicated here.
 ## Procedure
 
 1. **Scroll / pin / scrub / parallax** — read and follow:
-   `/home/maqsood.a@scicom.msc/.cursor/plugins/cache/cursor-public/gsap-skills/aed9cfd3277740755f6bfc1155c7aa645403b760/skills/gsap-scrolltrigger/SKILL.md`
+   `dependency:gsap-scrolltrigger`
 2. **Tweens / timelines / basics** — also read:
-   `/home/maqsood.a@scicom.msc/.cursor/plugins/cache/cursor-public/gsap-skills/aed9cfd3277740755f6bfc1155c7aa645403b760/skills/gsap-core/SKILL.md`
+   `dependency:gsap-core`
 3. **Motion taste / restraint** — consult ui-ux-pro-max when choosing what to animate:
-   `/home/maqsood.a@scicom.msc/.cursor/skills/ui-ux-pro-max/SKILL.md`
+   `dependency:ui-ux-pro-max`
 4. Prefer 2–3 intentional motions over decoration. Respect `prefers-reduced-motion`.
 
 ## Fallback
 
-If GSAP cache hash moves, re-resolve under `~/.cursor/plugins/cache/cursor-public/gsap-skills/*/skills/` and update paths.
+Resolve GSAP dependencies by name. Ambiguous installations require an explicit config override; never edit a wrapper to pin a cache hash.
 
 ## Sibling
 

@@ -1,8 +1,8 @@
 {
   "name": "cursor-agentic-team",
   "displayName": "Agentic Team",
-  "version": "1.1.0",
-  "description": "CEO + 7 departments (43 roles). Phase 3 complete + AI Collaboration field-guide pack (dev-ai-collab).",
+  "version": "1.2.0",
+  "description": "CEO + 7 departments (43 roles), portable dependencies and shared workflows; compatible Cursor entry points.",
   "author": {
     "name": "You"
   },

@@ -1,0 +1,113 @@
+{
+  "canvas": [
+    "~/.cursor/skills-cursor/canvas/SKILL.md"
+  ],
+  "stitch-generate-design": [
+    "~/.claude/skills/stitch-generate-design/SKILL.md"
+  ],
+  "stitch-extract-design-md": [
+    "~/.claude/skills/stitch-extract-design-md/SKILL.md"
+  ],
+  "stitch-code-to-design": [
+    "~/.claude/skills/stitch-code-to-design/SKILL.md"
+  ],
+  "stitch-loop": [
+    "~/.claude/skills/stitch-loop/SKILL.md"
+  ],
+  "stitch-manage-design-system": [
+    "~/.claude/skills/stitch-manage-design-system/SKILL.md"
+  ],
+  "banner-design": [
+    "~/.claude/skills/banner-design/SKILL.md"
+  ],
+  "ogilvy": [
+    "~/.claude/skills/ogilvy/SKILL.md"
+  ],
+  "taste-design": [
+    "~/.agents/skills/taste-design/SKILL.md",
+    "~/.claude/skills/taste-design/SKILL.md"
+  ],
+  "mem-search": [
+    "~/.claude/plugins/marketplaces/thedotmack/plugin/skills/mem-search/SKILL.md",
+    "~/.cursor/plugins/cache/thedotmack/claude-mem/*/skills/mem-search/SKILL.md"
+  ],
+  "gsap-scrolltrigger": [
+    "~/.cursor/plugins/cache/cursor-public/gsap-skills/*/skills/gsap-scrolltrigger/SKILL.md"
+  ],
+  "gsap-core": [
+    "~/.cursor/plugins/cache/cursor-public/gsap-skills/*/skills/gsap-core/SKILL.md"
+  ],
+  "ui-ux-pro-max": [
+    "~/.cursor/skills/ui-ux-pro-max/SKILL.md"
+  ],
+  "content-strategy": [
+    "~/.claude/skills/content-strategy/SKILL.md"
+  ],
+  "gdpr-data-handling": [
+    "~/.cursor/plugins/marketplaces/github.com/wshobson/agents/*/plugins/hr-legal-compliance/skills/gdpr-data-handling/SKILL.md"
+  ],
+  "agent-owasp-compliance": [
+    "~/.claude/skills/agent-owasp-compliance/SKILL.md"
+  ],
+  "boost-prompt": [
+    "~/.claude/skills/boost-prompt/SKILL.md"
+  ],
+  "enhance-prompt": [
+    "~/.claude/skills/enhance-prompt/SKILL.md"
+  ],
+  "frontend-design": [
+    "~/.claude/skills/frontend-design/SKILL.md",
+    "~/.agents/skills/frontend-design/SKILL.md"
+  ],
+  "page-cro": [
+    "~/.claude/skills/page-cro/SKILL.md"
+  ],
+  "brand": [
+    "~/.claude/skills/brand/SKILL.md"
+  ],
+  "nano-banana-pro-openrouter": [
+    "~/.claude/skills/nano-banana-pro-openrouter/SKILL.md"
+  ],
+  "using-superpowers": [
+    "~/.cursor/plugins/cache/cursor-public/superpowers/*/skills/using-superpowers/SKILL.md"
+  ],
+  "writing-skills": [
+    "~/.cursor/plugins/cache/cursor-public/superpowers/*/skills/writing-skills/SKILL.md"
+  ],
+  "build-mcp-server": [
+    "~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-server/SKILL.md"
+  ],
+  "create-skill": [
+    "~/.cursor/skills-cursor/create-skill/SKILL.md"
+  ],
+  "content-marketer": [
+    "~/.cursor/plugins/marketplaces/github.com/wshobson/agents/*/plugins/content-marketing/agents/content-marketer.md"
+  ],
+  "hermes-tweet": [
+    "~/.cursor/plugins/marketplaces/github.com/wshobson/agents/*/plugins/hermes-tweet/skills/hermes-tweet/SKILL.md"
+  ],
+  "social-publishing": [
+    "~/.cursor/plugins/marketplaces/github.com/wshobson/agents/*/plugins/social-publishing/skills/social-publishing/SKILL.md"
+  ],
+  "startup-financial-modeling": [
+    "~/.cursor/plugins/cache/claude-code-workflows/startup-business-analyst/*/skills/startup-financial-modeling/SKILL.md"
+  ],
+  "context7-mcp": [
+    "~/.cursor/plugins/cache/cursor-public/context7-plugin/*/skills/context7-mcp/SKILL.md"
+  ],
+  "seo-audit": [
+    "~/.claude/skills/seo-audit/SKILL.md"
+  ],
+  "schema-markup": [
+    "~/.claude/skills/schema-markup/SKILL.md"
+  ],
+  "copywriting": [
+    "~/.claude/skills/copywriting/SKILL.md"
+  ],
+  "gstack-qa": [
+    "~/.cursor/skills/gstack-qa/SKILL.md"
+  ],
+  "gstack": [
+    "~/.cursor/skills/gstack/SKILL.md"
+  ]
+}

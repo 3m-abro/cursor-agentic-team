@@ -6,6 +6,8 @@ description: >-
   Triggers: reconcile, bank rec, AP aging, AR aging, account reconciliation.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # FINANCE — Reconciliation (Reconciler)
 
 **Department:** FINANCE

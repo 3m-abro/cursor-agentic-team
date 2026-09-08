@@ -6,6 +6,8 @@ description: >-
   Triggers: signature request, send for signature, e-sign, DocuSign prep.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # LEGAL — Signature Request
 
 **Department:** LEGAL

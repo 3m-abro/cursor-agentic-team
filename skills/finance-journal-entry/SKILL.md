@@ -6,6 +6,8 @@ description: >-
   Triggers: journal entry, double entry, bookkeeping entry, JE.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # FINANCE — Journal Entry (Journal Keeper)
 
 **Department:** FINANCE

@@ -6,6 +6,8 @@ description: >-
   Triggers: tax prep, tax checklist, year-end tax docs, VAT prep.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # BIZ — Tax Prep
 
 **Department:** BIZ

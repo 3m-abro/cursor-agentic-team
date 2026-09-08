@@ -6,6 +6,8 @@ description: >-
   Triggers: NDA, non-disclosure, CDA review, NDA triage.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # LEGAL — Triage NDA (NDA Triage)
 
 **Department:** LEGAL

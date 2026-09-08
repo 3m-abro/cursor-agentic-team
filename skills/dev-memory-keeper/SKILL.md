@@ -7,6 +7,8 @@ description: >-
   codebase memory.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # DEV — Memory Keeper
 
 **Department:** DEV
@@ -16,10 +18,9 @@ Thin wrapper. Prefer claude-mem mem-search; fall back to user-memory + codebase-
 ## Primary
 
 1. Read and follow (prefer marketplace copy if present):
-   `/home/maqsood.a@scicom.msc/.claude/plugins/marketplaces/thedotmack/plugin/skills/mem-search/SKILL.md`
-2. Alternate cached copy:
-   `/home/maqsood.a@scicom.msc/.cursor/plugins/cache/thedotmack/claude-mem/3651a34e96b82f105377e040d86cf4bfe6939bed/skills/mem-search/SKILL.md`
-3. Use `plugin-claude-mem-mcp-search` MCP tools (`search`, `timeline`, `smart_search`, etc.) per that skill.
+   `dependency:mem-search`
+2. Alternate provider locations are handled by the selected adapter.
+3. Discover connected claude-mem MCP tools (`search`, `timeline`, `smart_search`, etc.) per that skill.
 
 ## Fallback (if claude-mem unavailable)
 
@@ -28,4 +29,4 @@ Thin wrapper. Prefer claude-mem mem-search; fall back to user-memory + codebase-
 
 ## CEO habit
 
-After routing / architecture decisions: write a short observation (decision + why + date). No memory → decision evaporates.
+After routing / architecture decisions: write a short observation (decision + why + date). Persist to repository DECISIONS.md even if external memory is unavailable. Report external dual-write as unavailable or failed; never claim it succeeded.

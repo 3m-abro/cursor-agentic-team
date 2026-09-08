@@ -31,7 +31,7 @@ Print the current Agentic Team map for this session.
 | `dev-superpowers` | Superpowers process |
 | `dev-docs-fetcher` | Context7 docs |
 | `dev-mcp-builder` | MCP server build |
-| `dev-skill-creator` | Create Cursor skills |
+| `dev-skill-creator` | Create host-compatible skills |
 | `dev-qa-engineer` | gstack-qa |
 | `dev-memory-keeper` | claude-mem / memory MCP |
 | `dev-ai-collab` | Field-guide handover / decisions / ship gate |

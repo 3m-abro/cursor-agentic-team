@@ -1,3 +1,7 @@
 .cursor/
 graphify-out/
 memory.jsonl
+__pycache__/
+*.pyc
+config/dependencies.local.json
+dist/

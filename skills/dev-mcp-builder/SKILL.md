@@ -7,6 +7,8 @@ description: >-
   MCP integration, Model Context Protocol.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # DEV — MCP Builder
 
 **Department:** DEV
@@ -16,10 +18,10 @@ Thin wrapper. Discovery first — do not scaffold until use-case questions are a
 ## Procedure
 
 1. Read and follow:
-   `/home/maqsood.a@scicom.msc/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-server/SKILL.md`
+   `dependency:build-mcp-server`
 2. Follow that skill's interrogation → deployment model → tool-design → handoff flow.
-3. For Cursor local plugins that ship MCP config, also respect create-plugin quality gates (relative paths, valid manifest).
+3. For the selected host plugin format, respect its packaging quality gates (relative paths, valid manifest).
 
 ## Fallback
 
-If the path above is missing on another machine: use Context7 / official MCP docs and Cursor MCP server templates; still interrogate use case before coding.
+If the path above is missing on another machine: use Context7 / official MCP docs and host-supported MCP server templates; still interrogate use case before coding.

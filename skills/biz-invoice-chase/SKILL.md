@@ -6,6 +6,8 @@ description: >-
   Triggers: invoice chase, collections, AR follow-up, unpaid invoice, dunning.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # BIZ — Invoice Chase
 
 **Department:** BIZ

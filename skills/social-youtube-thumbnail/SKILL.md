@@ -7,6 +7,8 @@ description: >-
   Triggers: YouTube thumbnail, thumbnail design, channel art, social cover.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # SOCIAL — YouTube Thumbnail
 
 **Department:** SOCIAL
@@ -16,9 +18,9 @@ Thin dual wrap: layout craft + image generation.
 ## Upstream
 
 1. Visual / composition / banner craft:
-   `/home/maqsood.a@scicom.msc/.claude/skills/banner-design/SKILL.md`
+   `dependency:banner-design`
 2. Image generation when assets missing:
-   `/home/maqsood.a@scicom.msc/.claude/skills/nano-banana-pro-openrouter/SKILL.md`
+   `dependency:nano-banana-pro-openrouter`
 
 ## Procedure
 

@@ -1,0 +1,110 @@
+{
+  "agent-owasp-compliance": {
+    "kind": "skill"
+  },
+  "banner-design": {
+    "kind": "skill"
+  },
+  "boost-prompt": {
+    "kind": "skill"
+  },
+  "brand": {
+    "kind": "skill"
+  },
+  "build-mcp-server": {
+    "kind": "skill"
+  },
+  "canvas": {
+    "kind": "skill"
+  },
+  "content-marketer": {
+    "kind": "agent"
+  },
+  "content-strategy": {
+    "kind": "skill"
+  },
+  "context7-mcp": {
+    "kind": "skill"
+  },
+  "copywriting": {
+    "kind": "skill"
+  },
+  "create-skill": {
+    "kind": "skill"
+  },
+  "enhance-prompt": {
+    "kind": "skill"
+  },
+  "frontend-design": {
+    "kind": "skill"
+  },
+  "gdpr-data-handling": {
+    "kind": "skill"
+  },
+  "gsap-core": {
+    "kind": "skill"
+  },
+  "gsap-scrolltrigger": {
+    "kind": "skill"
+  },
+  "gstack": {
+    "kind": "skill"
+  },
+  "gstack-qa": {
+    "kind": "skill"
+  },
+  "hermes-tweet": {
+    "kind": "skill"
+  },
+  "mem-search": {
+    "kind": "skill"
+  },
+  "nano-banana-pro-openrouter": {
+    "kind": "skill"
+  },
+  "ogilvy": {
+    "kind": "skill"
+  },
+  "page-cro": {
+    "kind": "skill"
+  },
+  "schema-markup": {
+    "kind": "skill"
+  },
+  "seo-audit": {
+    "kind": "skill"
+  },
+  "social-publishing": {
+    "kind": "skill"
+  },
+  "startup-financial-modeling": {
+    "kind": "skill"
+  },
+  "stitch-code-to-design": {
+    "kind": "skill"
+  },
+  "stitch-extract-design-md": {
+    "kind": "skill"
+  },
+  "stitch-generate-design": {
+    "kind": "skill"
+  },
+  "stitch-loop": {
+    "kind": "skill"
+  },
+  "stitch-manage-design-system": {
+    "kind": "skill"
+  },
+  "taste-design": {
+    "kind": "skill"
+  },
+  "ui-ux-pro-max": {
+    "kind": "skill"
+  },
+  "using-superpowers": {
+    "kind": "skill"
+  },
+  "writing-skills": {
+    "kind": "skill"
+  }
+}

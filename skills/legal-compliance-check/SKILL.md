@@ -6,6 +6,8 @@ description: >-
   Triggers: compliance check, GDPR, privacy review, OWASP agent, data handling.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # LEGAL — Compliance Check
 
 **Department:** LEGAL
@@ -21,9 +23,9 @@ Wrap GDPR data-handling + agent-owasp-compliance. Issue-spot only.
 ## Upstream
 
 1. GDPR / personal data handling patterns:
-   `/home/maqsood.a@scicom.msc/.cursor/plugins/marketplaces/github.com/wshobson/agents/c4b82b0ad771190355eb8e204b1329732a18449a/plugins/hr-legal-compliance/skills/gdpr-data-handling/SKILL.md`
+   `dependency:gdpr-data-handling`
 2. Agent / app security OWASP-oriented checks:
-   `/home/maqsood.a@scicom.msc/.claude/skills/agent-owasp-compliance/SKILL.md`
+   `dependency:agent-owasp-compliance`
 
 ## Procedure
 

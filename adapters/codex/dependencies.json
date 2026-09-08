@@ -1,0 +1,6 @@
+{
+  "create-skill": [
+    "~/.codex/skills/.system/skill-creator/SKILL.md",
+    "~/.agents/skills/skill-creator/SKILL.md"
+  ]
+}

@@ -6,6 +6,8 @@ description: >-
   Triggers: variance analysis, budget vs actual, flash report, P&L bridge.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # FINANCE — Variance Analysis (Variance Analyst)
 
 **Department:** FINANCE

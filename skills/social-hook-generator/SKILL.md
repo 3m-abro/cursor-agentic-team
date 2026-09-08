@@ -7,6 +7,8 @@ description: >-
   Triggers: hook, scroll stopper, reel hook, post opener, attention grabber.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # SOCIAL — Hook Generator
 
 **Department:** SOCIAL
@@ -16,9 +18,9 @@ Wrap + procedure: prompt refinement upstream + social-specific hook craft.
 ## Upstream
 
 1. Interactive prompt refinement (when brief is vague):
-   `/home/maqsood.a@scicom.msc/.claude/skills/boost-prompt/SKILL.md`
+   `dependency:boost-prompt`
 2. Specificity / structure polish (adapt patterns; Stitch-oriented but useful for sharpening briefs):
-   `/home/maqsood.a@scicom.msc/.claude/skills/enhance-prompt/SKILL.md`
+   `dependency:enhance-prompt`
 
 ## Social hooks procedure
 

@@ -7,6 +7,8 @@ description: >-
   Triggers: lead magnet, gated content, ebook, checklist offer, opt-in asset.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # MARKETING — Lead Magnets
 
 **Department:** MARKETING

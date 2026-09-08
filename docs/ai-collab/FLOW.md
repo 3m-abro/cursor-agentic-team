@@ -1,33 +1,9 @@
-# Flow
+# Current flow — portability migration
 
-How execution travels for **current** work. Thin and living — not a full system dump.
+1. Host entry → shared runtime → selected platform adapter.
+2. Shared routing → department assignment → shared role / matching skill.
+3. Named dependency → explicit override / roots / host defaults → existing resource.
+4. Agent reads resource and executes using actual host tools; reports capability gaps.
+5. Work evidence → repository decisions, tests and handover; external memory when available.
 
-**Active work:** AI collab field-guide → agentic team (v1.1.0)  
-**Updated:** 2026-08-17
-
-## Path (ordered)
-
-1. `rules/ceo-router.mdc` → classify DEV
-2. → `skills/dev-ai-collab/SKILL.md` (continuity / gates)
-3. → `templates/ai-collab/*` or `docs/ai-collab/*`
-4. → optional `dev-memory-keeper` dual-write
-5. → gstack `/qa` `/review` `/ship` owns verify; collab gate checks evidence exists
-
-## Files in play
-
-| File | Role in this path |
-|------|-------------------|
-| `skills/dev-ai-collab/SKILL.md` | Rituals + hybrid gate |
-| `commands/dev-collab.md` | Slash entry |
-| `templates/ai-collab/` | Consumer stubs |
-| `docs/ai-collab/` | Dogfood instance |
-| `agents/ceo-orchestrator.md` | Dual-write + habits |
-| `rules/ceo-router.mdc` | Dispatch + ship parallel |
-
-## Modifying now
-
-- Pack shipped; next edits should update HANDOVER/DECISIONS if behavior changes
-
-## Gaps / unknown edges
-
-- Cursor skill discovery after reload (user environment)
+Exports use the same source tree. Plain ChatGPT export is reference material only.

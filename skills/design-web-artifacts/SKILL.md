@@ -6,6 +6,8 @@ description: >-
   Triggers: canvas, .canvas.tsx, stitch, design artifact, visual deliverable.
 ---
 
+Read [the shared runtime contract](../../shared/RUNTIME.md) before this workflow.
+
 # DESIGN — Web Artifacts
 
 **Department:** DESIGN
@@ -15,13 +17,13 @@ Thin wrapper. Canvas for live React artifacts; Stitch for design generation / sy
 ## Procedure
 
 1. **Interactive / analytical artifact** — read and follow:
-   `/home/maqsood.a@scicom.msc/.cursor/skills-cursor/canvas/SKILL.md`
+   `dependency:canvas`
 2. **Generate / extract / loop designs (when Stitch fits)** — pick the matching upstream:
-   - `/home/maqsood.a@scicom.msc/.claude/skills/stitch-generate-design/SKILL.md`
-   - `/home/maqsood.a@scicom.msc/.claude/skills/stitch-extract-design-md/SKILL.md`
-   - `/home/maqsood.a@scicom.msc/.claude/skills/stitch-code-to-design/SKILL.md`
-   - `/home/maqsood.a@scicom.msc/.claude/skills/stitch-loop/SKILL.md`
-   - `/home/maqsood.a@scicom.msc/.claude/skills/stitch-manage-design-system/SKILL.md`
+   - `dependency:stitch-generate-design`
+   - `dependency:stitch-extract-design-md`
+   - `dependency:stitch-code-to-design`
+   - `dependency:stitch-loop`
+   - `dependency:stitch-manage-design-system`
 3. Announce which upstream skill ran. Do not invent a parallel canvas/Stitch protocol.
 
 ## Sibling
